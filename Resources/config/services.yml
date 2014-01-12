@@ -1,0 +1,15 @@
+parameters:
+    teapot_user.user_service.class: Teapot\Base\UserBundle\Service\UserService
+    teapot_user.user_group_service.class: Teapot\Base\UserBundle\Service\UserGroupService
+
+    teapot_user.user_repository.class: 'TeapotBaseUserBundle:User'
+    teapot_user.user_group_repository.class: 'TeapotBaseUserBundle:UserGroup'
+    teapot_user.user_token_repository.class: 'TeapotBaseUserBundle:UserToken'
+
+services:
+    teapot.user:
+        class: %teapot_user.user_service.class%
+        arguments: [@service_container]
+    teapot.user.group:
+        class: %teapot_user.user_group_service.class%
+        arguments: [@service_container]

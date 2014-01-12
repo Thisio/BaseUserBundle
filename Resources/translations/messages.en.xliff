@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>user.signup</source>
+                <target>Sign Up</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>username</source>
+                <target>Username</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>password</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>confirm.password</source>
+                <target>Confirm Password</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>password.not.match</source>
+                <target>Passwords don't match</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>welcome</source>
+                <target>Welcome</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Need.an.account?</source>
+                <target>Need an account?</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Sign.up.message</source>
+                <target>Be part of something big by signing up!</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Login.message</source>
+                <target>Hey welcome back!</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Settings</source>
+                <target>Settings</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Logout</source>
+                <target>Logout</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Flag.topic</source>
+                <target>Flag</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Flag.topic.notice</source>
+                <target>Flag this topic for moderation.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Delete.topic</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Delete.topic.notice</source>
+                <target>Delete this topic.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Forgot.password?</source>
+                <target>Forgot password?</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Submit</source>
+                <target>Submit</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Token.still.valid</source>
+                <target>You've already requested a password change, please check your emails.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Token.is.expired</source>
+                <target>Your request has expired, submit your information again and check your emails.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Token.unexisting</source>
+                <target>You used an invalid URL.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Token.sent</source>
+                <target>Check your emails, you should have received one containing a link.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Password.successfully.changed</source>
+                <target>Your password has been successfully changed.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>old.password</source>
+                <target>Old password</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Current.avatars</source>
+                <target>Current avatars</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Admin</source>
+                <target>Admin</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Add.a.description</source>
+                <target>Add a description</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>%username%'s profile</source>
+                <target>%username%'s profile</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>%username%'s settings</source>
+                <target>%username%'s settings</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

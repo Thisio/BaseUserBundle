@@ -1,0 +1,19 @@
+TeapotBaseUserBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: TeapotBaseUserBundle:Default:index }
+TeapotBaseUserBundle_login:
+    pattern:   /login/
+    defaults:  { _controller: TeapotBaseUserBundle:Security:login }
+TeapotBaseUserBundle_signup:
+    pattern:   /signup/
+    defaults:  { _controller: TeapotBaseUserBundle:Registration:signup }
+TeapotBaseUserBundle_forgotPassword:
+    pattern:   /forgot-password/
+    defaults:  { _controller: TeapotBaseUserBundle:Account:forgotPassword }
+TeapotBaseUserBundle_resetPassword:
+    pattern:   /reset-password/
+    defaults:  { _controller: TeapotBaseUserBundle:Account:resetPassword }
+TeapotBaseUserBundle_login_check:
+    pattern:   /login-check/
+TeapotBaseUserBundle_logout:
+    pattern:   /logout/
