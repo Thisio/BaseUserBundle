@@ -6,19 +6,19 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @category   Teapot
+ * @category   Teapotio
  * @package    BaseUserBundle
  * @author     Thomas Potaire
  */
 
-namespace Teapot\Base\UserBundle\Controller;
+namespace Teapotio\Base\UserBundle\Controller;
 
-use Teapot\Base\UserBundle\Form\ForgotPasswordType;
-use Teapot\Base\UserBundle\Form\ResetPasswordType;
+use Teapotio\Base\UserBundle\Form\ForgotPasswordType;
+use Teapotio\Base\UserBundle\Form\ResetPasswordType;
 
-use Teapot\Base\UserBundle\Entity\User;
-use Teapot\Base\UserBundle\Entity\UserGroup;
-use Teapot\Base\UserBundle\Entity\UserToken;
+use Teapotio\Base\UserBundle\Entity\User;
+use Teapotio\Base\UserBundle\Entity\UserGroup;
+use Teapotio\Base\UserBundle\Entity\UserToken;
 
 use Symfony\Component\Form\FormError;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -30,7 +30,7 @@ class AccountController extends Controller
     {
         list($form, $isTokenGenerated) = $this->resetPasswordForm();
 
-        return $this->render('TeapotBaseUserBundle:Account:forgotPassword.html.twig', array(
+        return $this->render('TeapotioBaseUserBundle:Account:forgotPassword.html.twig', array(
             'form'                 => $form->createView(),
             'is_token_generated'   => $isTokenGenerated
         ));
@@ -63,12 +63,12 @@ class AccountController extends Controller
             $em = $this->get('doctrine')
                        ->getEntityManager();
 
-            $user = $this->get('teapot.user')
+            $user = $this->get('teapotio.user')
                          ->getByUsernameAndEmail($form['username']->getData(), $form['email']->getData());
 
             if ($user instanceof User) {
 
-                $userToken = $this->get('teapot.user')
+                $userToken = $this->get('teapotio.user')
                                   ->getTokenByUser($user);
 
                 $generateToken = true;
@@ -88,7 +88,7 @@ class AccountController extends Controller
                 }
 
                 if ($generateToken === true) {
-                    $userToken = $this->get('teapot.user')->createUserToken();
+                    $userToken = $this->get('teapotio.user')->createUserToken();
                     $userToken->setUser($user);
                     $userToken->setDateCreated(new \DateTime());
                     $userToken->setToken(sha1(uniqid(mt_rand(), true)));
@@ -120,7 +120,7 @@ class AccountController extends Controller
             $em = $this->get('doctrine')
                        ->getEntityManager();
 
-            $userToken = $this->get('teapot.user')
+            $userToken = $this->get('teapotio.user')
                               ->getToken($token);
 
             if (true === $userToken instanceof UserToken) {
@@ -145,7 +145,7 @@ class AccountController extends Controller
                         $em->remove($userToken);
                         $em->flush();
 
-                        return $this->render('TeapotBaseUserBundle:Account:resetPasswordSuccessful.html.twig', array(
+                        return $this->render('TeapotioBaseUserBundle:Account:resetPasswordSuccessful.html.twig', array(
                             'form' => $form->createView()
                         ));
                     }
@@ -156,11 +156,11 @@ class AccountController extends Controller
                     $this->get('session')->getFlashBag()->set('error', 'Token.is.expired');
 
                     return $this->redirect(
-                        $this->generateUrl('TeapotBaseUserBundle_forgotPassword')
+                        $this->generateUrl('TeapotioBaseUserBundle_forgotPassword')
                     );
                 }
                 else {
-                    return $this->render('TeapotBaseUserBundle:Account:resetPassword.html.twig', array(
+                    return $this->render('TeapotioBaseUserBundle:Account:resetPassword.html.twig', array(
                         'form' => $form->createView()
                     ));
                 }
@@ -169,13 +169,13 @@ class AccountController extends Controller
                 $this->get('session')->getFlashBag()->set('error', 'Token.unexisting');
 
                 return $this->redirect(
-                    $this->generateUrl('TeapotBaseUserBundle_forgotPassword')
+                    $this->generateUrl('TeapotioBaseUserBundle_forgotPassword')
                 );
             }
         }
 
         return $this->redirect(
-            $this->generateUrl('TeapotBaseUserBundle_forgotPassword')
+            $this->generateUrl('TeapotioBaseUserBundle_forgotPassword')
         );
     }
 }

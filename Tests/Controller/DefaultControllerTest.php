@@ -1,6 +1,6 @@
 <?php
 
-namespace Teapot\Base\UserBundle\Tests\Controller;
+namespace Teapotio\Base\UserBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

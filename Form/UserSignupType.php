@@ -6,12 +6,12 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @category   Teapot
+ * @category   Teapotio
  * @package    BaseUserBundle
  * @author     Thomas Potaire
  */
 
-namespace Teapot\Base\UserBundle\Form;
+namespace Teapotio\Base\UserBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -36,12 +36,12 @@ class UserSignupType extends AbstractType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'Teapot\Base\UserBundle\Entity\User'
+            'data_class' => 'Teapotio\Base\UserBundle\Entity\User'
         ));
     }
 
     public function getName()
     {
-        return 'teapot_usersignup';
+        return 'teapotio_usersignup';
     }
 }

@@ -1,12 +1,12 @@
 <?php
 
-namespace Teapot\Base\UserBundle\DataFixtures\ORM;
+namespace Teapotio\Base\UserBundle\DataFixtures\ORM;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
 use Doctrine\Common\DataFixtures\FixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
-use Teapot\Base\UserBundle\Entity\UserGroup;
+use Teapotio\Base\UserBundle\Entity\UserGroup;
 
 class LoadGroupData extends AbstractFixture implements OrderedFixtureInterface
 {

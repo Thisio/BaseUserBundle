@@ -1,4 +1,4 @@
-TeapotBaseUserBundle
+TeapotioBaseUserBundle
 ====================
 
 Work-in-progress ~ Unstable

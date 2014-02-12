@@ -6,17 +6,17 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @category   Teapot
+ * @category   Teapotio
  * @package    BaseUserBundle
  * @author     Thomas Potaire
  */
 
-namespace Teapot\Base\UserBundle\Entity;
+namespace Teapotio\Base\UserBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Teapot\Base\UserBundle\Entity\Stat
+ * Teapotio\Base\UserBundle\Entity\Stat
  *
  * @ORM\MappedSuperclass
  */

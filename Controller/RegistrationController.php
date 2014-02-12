@@ -6,16 +6,16 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @category   Teapot
+ * @category   Teapotio
  * @package    BaseUserBundle
  * @author     Thomas Potaire
  */
 
-namespace Teapot\Base\UserBundle\Controller;
+namespace Teapotio\Base\UserBundle\Controller;
 
-use Teapot\Base\UserBundle\Form\UserSignupType;
-use Teapot\Base\UserBundle\Entity\User;
-use Teapot\Base\UserBundle\Entity\UserGroup;
+use Teapotio\Base\UserBundle\Form\UserSignupType;
+use Teapotio\Base\UserBundle\Entity\User;
+use Teapotio\Base\UserBundle\Entity\UserGroup;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -43,7 +43,7 @@ class RegistrationController extends Controller
                 $user->setSlug();
                 $user->setDateCreated(new \DateTime());
 
-                $group = $em->getRepository('TeapotBaseUserBundle:UserGroup')
+                $group = $em->getRepository('TeapotioBaseUserBundle:UserGroup')
                             ->findOneBy(array('role' => 'ROLE_USER'));
 
                 if (false === $group instanceof UserGroup) {
@@ -59,7 +59,7 @@ class RegistrationController extends Controller
             }
         }
 
-        return $this->render('TeapotBaseUserBundle:Registration:signup.html.twig', array(
+        return $this->render('TeapotioBaseUserBundle:Registration:signup.html.twig', array(
             'form' => $form->createView()
         ));
     }
@@ -67,7 +67,7 @@ class RegistrationController extends Controller
     public function forgotAction($token)
     {
 
-        return $this->render('TeapotBaseUserBundle:Registration:forgot.html.twig', array(
+        return $this->render('TeapotioBaseUserBundle:Registration:forgot.html.twig', array(
 
         ));
 

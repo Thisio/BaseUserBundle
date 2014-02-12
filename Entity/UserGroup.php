@@ -6,12 +6,12 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @category   Teapot
+ * @category   Teapotio
  * @package    BaseUserBundle
  * @author     Thomas Potaire
  */
 
-namespace Teapot\Base\UserBundle\Entity;
+namespace Teapotio\Base\UserBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -22,7 +22,7 @@ use Symfony\Component\Security\Core\Role\RoleInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 
 /**
- * Teapot\Base\UserBundle\Entity\UserGroup
+ * Teapotio\Base\UserBundle\Entity\UserGroup
  *
  * @ORM\MappedSuperclass
  */

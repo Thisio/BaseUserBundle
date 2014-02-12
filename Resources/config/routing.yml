@@ -1,19 +1,19 @@
-TeapotBaseUserBundle_homepage:
+TeapotioBaseUserBundle_homepage:
     pattern:  /hello/{name}
-    defaults: { _controller: TeapotBaseUserBundle:Default:index }
-TeapotBaseUserBundle_login:
+    defaults: { _controller: TeapotioBaseUserBundle:Default:index }
+TeapotioBaseUserBundle_login:
     pattern:   /login/
-    defaults:  { _controller: TeapotBaseUserBundle:Security:login }
-TeapotBaseUserBundle_signup:
+    defaults:  { _controller: TeapotioBaseUserBundle:Security:login }
+TeapotioBaseUserBundle_signup:
     pattern:   /signup/
-    defaults:  { _controller: TeapotBaseUserBundle:Registration:signup }
-TeapotBaseUserBundle_forgotPassword:
+    defaults:  { _controller: TeapotioBaseUserBundle:Registration:signup }
+TeapotioBaseUserBundle_forgotPassword:
     pattern:   /forgot-password/
-    defaults:  { _controller: TeapotBaseUserBundle:Account:forgotPassword }
-TeapotBaseUserBundle_resetPassword:
+    defaults:  { _controller: TeapotioBaseUserBundle:Account:forgotPassword }
+TeapotioBaseUserBundle_resetPassword:
     pattern:   /reset-password/
-    defaults:  { _controller: TeapotBaseUserBundle:Account:resetPassword }
-TeapotBaseUserBundle_login_check:
+    defaults:  { _controller: TeapotioBaseUserBundle:Account:resetPassword }
+TeapotioBaseUserBundle_login_check:
     pattern:   /login-check/
-TeapotBaseUserBundle_logout:
+TeapotioBaseUserBundle_logout:
     pattern:   /logout/

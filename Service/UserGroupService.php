@@ -6,14 +6,14 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @category   Teapot
+ * @category   Teapotio
  * @package    BaseUserBundle
  * @author     Thomas Potaire
  */
 
-namespace Teapot\Base\UserBundle\Service;
+namespace Teapotio\Base\UserBundle\Service;
 
-use Teapot\Base\UserBundle\Entity\UserGroup;
+use Teapotio\Base\UserBundle\Entity\UserGroup;
 
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Security\Core\Role\RoleInterface;

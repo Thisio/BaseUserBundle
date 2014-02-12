@@ -1,8 +1,8 @@
 <?php
 
-namespace Teapot\Base\UserBundle\DataFixtures\ORM;
+namespace Teapotio\Base\UserBundle\DataFixtures\ORM;
 
-use Teapot\Base\UserBundle\Entity\User;
+use Teapotio\Base\UserBundle\Entity\User;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;

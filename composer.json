@@ -1,9 +1,9 @@
 {
-    "name": "teapot/base/user-bundle",
+    "name": "teapotio/base-user-bundle",
     "type": "symfony-bundle",
     "description": "UserBundle for Symfony2",
     "keywords": ["User", "Groups"],
-    "homepage": "https://github.com/Teapot/Base/UserBundle",
+    "homepage": "https://github.com/teapotio/Base/UserBundle",
     "license": "MIT",
     "authors": [
         {
@@ -13,20 +13,14 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.1.*",
-        "symfony/security-bundle": "2.1.*",
-        "doctrine/doctrine-fixtures-bundle": "dev-master"
+        "symfony/symfony": ">=2.3",
+        "swiftmailer/swiftmailer": "*",
+        "doctrine/doctrine-bundle": "*"
     },
     "require-dev": {
-        "twig/twig": "*",
-        "doctrine/doctrine-bundle": "*",
-        "doctrine/mongodb-odm-bundle": "*",
-        "swiftmailer/swiftmailer": "*",
-        "symfony/yaml": "2.1.*",
-        "symfony/validator": "2.1.*"
     },
     "autoload": {
-        "psr-0": { "Teapot\\Base\\UserBundle": "" }
+        "psr-0": { "Teapotio\\Base\\UserBundle": "" }
     },
-    "target-dir": "Teapot/Base/UserBundle"
+    "target-dir": "Teapotio/Base/UserBundle"
 }
