@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "UserBundle for Symfony2",
     "keywords": ["User", "Groups"],
-    "homepage": "https://github.com/teapotio/Base/UserBundle",
+    "homepage": "https://github.com/teapotio/BaseUserBundle",
     "license": "MIT",
     "authors": [
         {
