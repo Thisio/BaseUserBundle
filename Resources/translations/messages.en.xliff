@@ -118,6 +118,18 @@
                 <source>%username%'s settings</source>
                 <target>%username%'s settings</target>
             </trans-unit>
+            <trans-unit id="30">
+                <source>Customize.style</source>
+                <target>Customize your signature</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Background.color</source>
+                <target>Background color</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Background.tiled</source>
+                <target>Background tiled</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
