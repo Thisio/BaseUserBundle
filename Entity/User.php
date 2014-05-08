@@ -93,6 +93,11 @@ class User implements AdvancedUserInterface
     protected $legacyId;
 
     /**
+     * @var \Teapotio\Base\UserBundle\Entity\UserGroup $displayGroup
+     */
+    protected $displayGroup;
+
+    /**
      * @var ArrayCollection $groups
      */
     protected $groups;
@@ -262,6 +267,29 @@ class User implements AdvancedUserInterface
     public function getSalt()
     {
         return $this->salt;
+    }
+
+    /**
+     * Set displayGroup
+     *
+     * @param \Teapotio\Base\UserBundle\Entity\UserGroup $displayGroup
+     * @return User
+     */
+    public function setGroupDisplay($displayGroup)
+    {
+        $this->displayGroup = $displayGroup;
+
+        return $this;
+    }
+
+    /**
+     * Get displayGroup
+     *
+     * @return \Teapotio\Base\UserBundle\Entity\UserGroup
+     */
+    public function getDisplayGroup()
+    {
+        return $this->displayGroup;
     }
 
     /**

@@ -130,6 +130,18 @@
                 <source>Background.tiled</source>
                 <target>Background tiled</target>
             </trans-unit>
+            <trans-unit id="33">
+                <source>Link.group.to.user</source>
+                <target>Link group to user</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source><![CDATA[<b>Display group</b>: Defines the user's displayed group.]]></source>
+                <target><![CDATA[<b>Display group</b>: Defines the user's displayed group.]]></target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source><![CDATA[<b>Groups</b>: Defines the user's permissions.]]></source>
+                <target><![CDATA[<b>Groups</b>: Defines the user's permissions.]]></target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

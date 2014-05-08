@@ -56,6 +56,11 @@ class UserGroup implements RoleInterface
     protected $role;
 
     /**
+     * @var \Teapotio\Base\UserBundle\Entity\User $displayUsers
+     */
+    protected $displayUsers;
+
+    /**
      * @var ArrayCollection $users
      */
     protected $users;
@@ -119,6 +124,29 @@ class UserGroup implements RoleInterface
     public function getRole()
     {
         return $this->role;
+    }
+
+    /**
+     * Add a user into the collection of displayed users
+     *
+     * @param User $user
+     * @return UserGroup
+     */
+    public function addDisplayUser(User $user)
+    {
+        $this->displayUsers[] = $user;
+
+        return $this;
+    }
+
+    /**
+     * Get a collection of display users
+     *
+     * @return ArrayCollection
+     */
+    public function getDisplayUsers()
+    {
+        return $this->displayUsers;
     }
 
     /**
