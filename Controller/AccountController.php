@@ -30,7 +30,7 @@ class AccountController extends Controller
     {
         list($form, $isTokenGenerated) = $this->resetPasswordForm();
 
-        return $this->render('TeapotioBaseUserBundle:Account:forgotPassword.html.twig', array(
+        return $this->render('TeapotioUserBundle:Account:page/forgotPassword.html.twig', array(
             'form'                 => $form->createView(),
             'is_token_generated'   => $isTokenGenerated
         ));
@@ -145,7 +145,7 @@ class AccountController extends Controller
                         $em->remove($userToken);
                         $em->flush();
 
-                        return $this->render('TeapotioBaseUserBundle:Account:resetPasswordSuccessful.html.twig', array(
+                        return $this->render('TeapotioUserBundle:Account:page/resetPasswordSuccessful.html.twig', array(
                             'form' => $form->createView()
                         ));
                     }
@@ -160,7 +160,7 @@ class AccountController extends Controller
                     );
                 }
                 else {
-                    return $this->render('TeapotioBaseUserBundle:Account:resetPassword.html.twig', array(
+                    return $this->render('TeapotioUserBundle:Account:page/resetPassword.html.twig', array(
                         'form' => $form->createView()
                     ));
                 }
