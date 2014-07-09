@@ -63,13 +63,4 @@ class RegistrationController extends Controller
             'form' => $form->createView()
         ));
     }
-
-    public function forgotAction($token)
-    {
-
-        return $this->render('TeapotioBaseUserBundle:Registration:forgot.html.twig', array(
-
-        ));
-
-    }
 }
