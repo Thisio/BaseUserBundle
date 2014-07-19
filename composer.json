@@ -22,5 +22,6 @@
     "autoload": {
         "psr-0": { "Teapotio\\Base\\UserBundle": "" }
     },
-    "target-dir": "Teapotio/Base/UserBundle"
+    "target-dir": "Teapotio/Base/UserBundle",
+    "minimum-stability": "dev"
 }
