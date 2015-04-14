@@ -154,6 +154,26 @@
                 <source>View.profile</source>
                 <target>View profile</target>
             </trans-unit>
+            <trans-unit id="39">
+                <source>Hey.%username%!</source>
+                <target>Hey %username%!</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>We.recently.received.a.password.reset.request,.if.you.didn't.request.it.please.discard.this.email.</source>
+                <target>We recently received a password reset request, if you didn't request it please discard this email.</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Click.on.the.following.link.if.you'd.like.to.reset.your.password.</source>
+                <target>Click on the following link if you'd like to reset your password.</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>The.administrators.from.%site%</source>
+                <target>The administrators from %site%</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Reset.your.password</source>
+                <target>Reset your password</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
