@@ -4,71 +4,71 @@
         <body>
             <trans-unit id="1">
                 <source>user.signup</source>
-                <target>Sign Up</target>
+                <target>Inscription</target>
             </trans-unit>
             <trans-unit id="2">
                 <source>username</source>
-                <target>Username</target>
+                <target>Nom d'utilisateur</target>
             </trans-unit>
             <trans-unit id="3">
                 <source>password</source>
-                <target>Password</target>
+                <target>Mot de passe</target>
             </trans-unit>
             <trans-unit id="4">
                 <source>confirm.password</source>
-                <target>Confirm Password</target>
+                <target>Corfirmer le mot de passe</target>
             </trans-unit>
             <trans-unit id="5">
                 <source>password.not.match</source>
-                <target>Passwords don't match</target>
+                <target>Les mots de passe ne correspondent pas</target>
             </trans-unit>
             <trans-unit id="6">
                 <source>welcome</source>
-                <target>Welcome</target>
+                <target>Bienvenue</target>
             </trans-unit>
             <trans-unit id="7">
                 <source>Need.an.account?</source>
-                <target>Need an account?</target>
+                <target>Besoin d'un compte ?</target>
             </trans-unit>
             <trans-unit id="8">
                 <source>Sign.up.message</source>
-                <target>Be part of something big by signing up!</target>
+                <target>Prenez part à quelque chose de grand en vous inscrivant!</target>
             </trans-unit>
             <trans-unit id="9">
                 <source>Login.message</source>
-                <target>Hey welcome back!</target>
+                <target>Hey, bon retour!</target>
             </trans-unit>
             <trans-unit id="10">
                 <source>Settings</source>
-                <target>Settings</target>
+                <target>Paramètres</target>
             </trans-unit>
             <trans-unit id="11">
                 <source>Logout</source>
-                <target>Logout</target>
+                <target>Deconnexion</target>
             </trans-unit>
             <trans-unit id="12">
                 <source>Flag.topic</source>
-                <target>Flag</target>
+                <target>Signaler</target>
             </trans-unit>
             <trans-unit id="13">
                 <source>Flag.topic.notice</source>
-                <target>Flag this topic for moderation.</target>
+                <target>Signaler ce sujet pour modération.</target>
             </trans-unit>
             <trans-unit id="14">
                 <source>Delete.topic</source>
-                <target>Delete</target>
+                <target>Supprimer</target>
             </trans-unit>
             <trans-unit id="15">
                 <source>Delete.topic.notice</source>
-                <target>Delete this topic.</target>
+                <target>Supprimer ce sujet.</target>
             </trans-unit>
             <trans-unit id="16">
                 <source>Forgot.password?</source>
-                <target>Forgot password?</target>
+                <target>Mot de passe oublié?</target>
             </trans-unit>
             <trans-unit id="17">
                 <source>Submit</source>
-                <target>Submit</target>
+                <target>Soumettre</target>
             </trans-unit>
             <trans-unit id="18">
                 <source>Email</source>
@@ -76,63 +76,63 @@
             </trans-unit>
             <trans-unit id="19">
                 <source>Token.still.valid</source>
-                <target>You've already requested a password change, please check your emails.</target>
+                <target>Vous avez déjà demandé un changement de mot de passe, veuillez vérifier vos emails.</target>
             </trans-unit>
             <trans-unit id="20">
                 <source>Token.is.expired</source>
-                <target>Your request has expired, submit your information again and check your emails.</target>
+                <target>Votre requête a expiré, soumettez vos informations à nouveau et vérifiez vos emails.</target>
             </trans-unit>
             <trans-unit id="21">
                 <source>Token.unexisting</source>
-                <target>You used an invalid URL.</target>
+                <target>Adresse invalide.</target>
             </trans-unit>
             <trans-unit id="22">
                 <source>Token.sent</source>
-                <target>Check your emails, you should have received one containing a link.</target>
+                <target>Vérifiez vos emails, vous devriez en avoir reçu un contenant un lien.</target>
             </trans-unit>
             <trans-unit id="23">
                 <source>Password.successfully.changed</source>
-                <target>Your password has been successfully changed.</target>
+                <target>Votre mot de passe a été modifié avec succès.</target>
             </trans-unit>
             <trans-unit id="24">
                 <source>old.password</source>
-                <target>Old password</target>
+                <target>Ancien mot de passe</target>
             </trans-unit>
             <trans-unit id="25">
                 <source>Current.avatars</source>
-                <target>Current avatars</target>
+                <target>Avatar actuel</target>
             </trans-unit>
             <trans-unit id="26">
                 <source>Admin</source>
-                <target>Admin</target>
+                <target>Administrateur</target>
             </trans-unit>
             <trans-unit id="27">
                 <source>Add.a.description</source>
-                <target>Add a description</target>
+                <target>Ajoutez une description</target>
             </trans-unit>
             <trans-unit id="28">
                 <source>%username%'s profile</source>
-                <target>%username%'s profile</target>
+                <target>Profil de %username%</target>
             </trans-unit>
             <trans-unit id="29">
                 <source>%username%'s settings</source>
-                <target>%username%'s settings</target>
+                <target>Paramètres de %username%</target>
             </trans-unit>
             <trans-unit id="30">
                 <source>Customize.style</source>
-                <target>Customize your signature</target>
+                <target>Personnalisez votre signature</target>
             </trans-unit>
             <trans-unit id="31">
                 <source>Background.color</source>
-                <target>Background color</target>
+                <target>Couleur de fond</target>
             </trans-unit>
             <trans-unit id="32">
                 <source>Background.tiled</source>
-                <target>Background tiled</target>
+                <target>Fond carrelé</target>
             </trans-unit>
             <trans-unit id="33">
                 <source>Link.group.to.user</source>
-                <target>Link group to user</target>
+                <target>Lier le groupe à l'utilisateur</target>
             </trans-unit>
             <trans-unit id="34">
                 <source><![CDATA[<b>Display group</b>: Defines the user's displayed group.]]></source>
