@@ -4,27 +4,175 @@
         <body>
             <trans-unit id="1">
                 <source>user.signup</source>
-                <target>S'inscrire</target>
+                <target>Sign Up</target>
             </trans-unit>
             <trans-unit id="2">
                 <source>username</source>
-                <target>Pseudo</target>
+                <target>Username</target>
             </trans-unit>
             <trans-unit id="3">
                 <source>password</source>
-                <target>Mot de passe</target>
+                <target>Password</target>
             </trans-unit>
             <trans-unit id="4">
                 <source>confirm.password</source>
-                <target>Mot de passe confirmation</target>
+                <target>Confirm Password</target>
             </trans-unit>
             <trans-unit id="5">
                 <source>password.not.match</source>
-                <target>Les mot de passes ne sont pas identiques.</target>
+                <target>Passwords don't match</target>
             </trans-unit>
             <trans-unit id="6">
                 <source>welcome</source>
-                <target>Bienvenue</target>
+                <target>Welcome</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Need.an.account?</source>
+                <target>Need an account?</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Sign.up.message</source>
+                <target>Be part of something big by signing up!</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Login.message</source>
+                <target>Hey welcome back!</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Settings</source>
+                <target>Settings</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Logout</source>
+                <target>Logout</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Flag.topic</source>
+                <target>Flag</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Flag.topic.notice</source>
+                <target>Flag this topic for moderation.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Delete.topic</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Delete.topic.notice</source>
+                <target>Delete this topic.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Forgot.password?</source>
+                <target>Forgot password?</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Submit</source>
+                <target>Submit</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Token.still.valid</source>
+                <target>You've already requested a password change, please check your emails.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Token.is.expired</source>
+                <target>Your request has expired, submit your information again and check your emails.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Token.unexisting</source>
+                <target>You used an invalid URL.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Token.sent</source>
+                <target>Check your emails, you should have received one containing a link.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Password.successfully.changed</source>
+                <target>Your password has been successfully changed.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>old.password</source>
+                <target>Old password</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Current.avatars</source>
+                <target>Current avatars</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Admin</source>
+                <target>Admin</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Add.a.description</source>
+                <target>Add a description</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>%username%'s profile</source>
+                <target>%username%'s profile</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>%username%'s settings</source>
+                <target>%username%'s settings</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Customize.style</source>
+                <target>Customize your signature</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Background.color</source>
+                <target>Background color</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Background.tiled</source>
+                <target>Background tiled</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Link.group.to.user</source>
+                <target>Link group to user</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source><![CDATA[<b>Display group</b>: Defines the user's displayed group.]]></source>
+                <target><![CDATA[<b>Display group</b>: Defines the user's displayed group.]]></target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source><![CDATA[<b>Groups</b>: Defines the user's permissions.]]></source>
+                <target><![CDATA[<b>Groups</b>: Defines the user's permissions.]]></target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Forgot.password?</source>
+                <target>Forgot password?</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Submit.your.information.and.you.will.receive.an.email.with.a.link</source>
+                <target>Submit your information and you will receive an email with a link to reset your password.</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>View.profile</source>
+                <target>View profile</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Hey.%username%!</source>
+                <target>Hey %username%!</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>We.recently.received.a.password.reset.request,.if.you.didn't.request.it.please.discard.this.email.</source>
+                <target>We recently received a password reset request, if you didn't request it please discard this email.</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Click.on.the.following.link.if.you'd.like.to.reset.your.password.</source>
+                <target>Click on the following link if you'd like to reset your password.</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>The.administrators.from.%site%</source>
+                <target>The administrators from %site%</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Reset.your.password</source>
+                <target>Reset your password</target>
             </trans-unit>
         </body>
     </file>
