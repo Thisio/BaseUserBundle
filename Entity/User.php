@@ -275,7 +275,7 @@ class User implements AdvancedUserInterface
      * @param \Teapotio\Base\UserBundle\Entity\UserGroup $displayGroup
      * @return User
      */
-    public function setGroupDisplay($displayGroup)
+    public function setDisplayGroup($displayGroup)
     {
         $this->displayGroup = $displayGroup;
 
@@ -315,6 +315,19 @@ class User implements AdvancedUserInterface
     public function addGroup(UserGroup $group)
     {
         $this->groups[] = $group;
+
+        return $this;
+    }
+
+    /**
+     * Add a group into the collection
+     *
+     * @param UserGroup $group
+     * @return User
+     */
+    public function removeGroup(UserGroup $group)
+    {
+        $this->groups->removeElement($group);
 
         return $this;
     }
