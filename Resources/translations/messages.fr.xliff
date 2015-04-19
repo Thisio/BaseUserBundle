@@ -136,23 +136,23 @@
             </trans-unit>
             <trans-unit id="34">
                 <source><![CDATA[<b>Display group</b>: Defines the user's displayed group.]]></source>
-                <target><![CDATA[<b>Display group</b>: Defines the user's displayed group.]]></target>
+                <target><![CDATA[<b>Groupe d'affichage</b>: Définit le groupe d'affichage de l'utilisateur.]]></target>
             </trans-unit>
             <trans-unit id="35">
                 <source><![CDATA[<b>Groups</b>: Defines the user's permissions.]]></source>
-                <target><![CDATA[<b>Groups</b>: Defines the user's permissions.]]></target>
+                <target><![CDATA[<b>Groupes</b>: Définit les autorisations de l'utilisateur.]]></target>
             </trans-unit>
             <trans-unit id="36">
                 <source>Forgot.password?</source>
-                <target>Forgot password?</target>
+                <target>Mot de passe oublié ?</target>
             </trans-unit>
             <trans-unit id="37">
                 <source>Submit.your.information.and.you.will.receive.an.email.with.a.link</source>
-                <target>Submit your information and you will receive an email with a link to reset your password.</target>
+                <target>Soumettez vos informations et vous recevrez un lien par email pour réinitialiser votre mot de passe.</target>
             </trans-unit>
             <trans-unit id="38">
                 <source>View.profile</source>
-                <target>View profile</target>
+                <target>Voir le profil</target>
             </trans-unit>
             <trans-unit id="39">
                 <source>Hey.%username%!</source>
@@ -160,19 +160,19 @@
             </trans-unit>
             <trans-unit id="40">
                 <source>We.recently.received.a.password.reset.request,.if.you.didn't.request.it.please.discard.this.email.</source>
-                <target>We recently received a password reset request, if you didn't request it please discard this email.</target>
+                <target>Nous avons récemment reçu une demande de réinitialisation de mot de passe, si vous ne l'avez pas effectuée, veuillez ignorer cet email.</target>
             </trans-unit>
             <trans-unit id="41">
                 <source>Click.on.the.following.link.if.you'd.like.to.reset.your.password.</source>
-                <target>Click on the following link if you'd like to reset your password.</target>
+                <target>Cliquez sur le lien suivant si vous souhaitez réinitialiser votre mot de passe.</target>
             </trans-unit>
             <trans-unit id="42">
                 <source>The.administrators.from.%site%</source>
-                <target>The administrators from %site%</target>
+                <target>L'administrateur de %site%</target>
             </trans-unit>
             <trans-unit id="43">
                 <source>Reset.your.password</source>
-                <target>Reset your password</target>
+                <target>Réinitialisez votre mot de passe</target>
             </trans-unit>
         </body>
     </file>
