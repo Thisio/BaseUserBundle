@@ -16,7 +16,7 @@
             </trans-unit>
             <trans-unit id="4">
                 <source>confirm.password</source>
-                <target>Corfirmer le mot de passe</target>
+                <target>Confirmer le mot de passe</target>
             </trans-unit>
             <trans-unit id="5">
                 <source>password.not.match</source>
@@ -44,7 +44,7 @@
             </trans-unit>
             <trans-unit id="11">
                 <source>Logout</source>
-                <target>Deconnexion</target>
+                <target>Déconnexion</target>
             </trans-unit>
             <trans-unit id="12">
                 <source>Flag.topic</source>
